@@ -1,0 +1,18 @@
+# Data & Archives (Stored locally on Frankfurt NVMe & pushed to Kaggle Datasets)
+data_parquet/
+*.parquet
+*.csv
+*.zip
+
+# Secrets & Credentials (NEVER commit to public GitHub)
+.env
+kaggle.json
+.kaggle/
+
+# Python & System Cache
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+logs/
+*.log
