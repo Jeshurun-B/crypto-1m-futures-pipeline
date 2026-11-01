@@ -1,0 +1,25 @@
+{
+  "project_name": "crypto-1m-futures-pipeline",
+  "kaggle_dataset_slug": "israelbajulaye/crypto-1m-futures-binance-bybit",
+  "data_dir": "data_parquet",
+  "symbols": [
+    "BTCUSDT",
+    "ETHUSDT",
+    "SOLUSDT",
+    "XRPUSDT",
+    "DOGEUSDT",
+    "ADAUSDT",
+    "AVAXUSDT",
+    "LINKUSDT",
+    "LTCUSDT",
+    "DOTUSDT"
+  ],
+  "rate_limits": {
+    "binance_sleep_sec": 0.45,
+    "binance_max_weight_1m": 1200,
+    "bybit_sleep_sec": 0.35
+  },
+  "common_start_ms": null,
+  "common_start_utc": null,
+  "symbol_inception_map": {}
+}
