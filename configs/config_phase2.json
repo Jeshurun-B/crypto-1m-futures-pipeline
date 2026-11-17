@@ -12,14 +12,24 @@
     "AVAXUSDT",
     "LINKUSDT",
     "LTCUSDT",
-    "DOTUSDT"
+    "DOTUSDT",
+    "BCHUSDT",
+    "TRXUSDT",
+    "UNIUSDT",
+    "AAVEUSDT",
+    "ETCUSDT",
+    "ATOMUSDT",
+    "XLMUSDT",
+    "FILUSDT",
+    "ALGOUSDT",
+    "XTZUSDT"
   ],
   "rate_limits": {
     "binance_sleep_sec": 0.45,
     "binance_max_weight_1m": 1200,
     "bybit_sleep_sec": 0.35
   },
-  "common_start_ms": null,
-  "common_start_utc": null,
+  "common_start_ms": 1634284320000,
+  "common_start_utc": "2021-10-15 07:52:00 UTC",
   "symbol_inception_map": {}
 }
